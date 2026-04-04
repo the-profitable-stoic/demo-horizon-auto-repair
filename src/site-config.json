@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Horizon Auto Repair",
+    "phone": "555-aut-r90",
+    "category": "auto-repair",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-repair-trust-navy",
+      "categoryGroup": "auto-repair",
+      "name": "Trust Navy",
+      "recipeFile": "auto-repair/trust-navy.astro",
+      "colors": {
+        "primary": "#EF4444",
+        "primaryDark": "#991B1B",
+        "primaryLight": "#fbd0d0",
+        "secondary": "#cb3a3a",
+        "accent": "#1F2937",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#EF4444",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Barlow",
+        "headingWeight": "700",
+        "bodyFont": "Roboto",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-repair/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Auto Repair in Memphis",
+      "heroSubline": "Honest diagnostics and reliable repairs for every make and model. Serving Memphis drivers since 2010 with factory-trained technicians.",
+      "aboutTitle": "Our Memphis Auto Care Story",
+      "aboutText": [
+        "Founded in a small garage near Elvis Presley Blvd, Horizon Auto Repair has grown into one of Memphis' most trusted auto service centers. We started with just two lifts and a commitment to fair pricing.",
+        "Today, we combine old-school mechanical expertise with the latest diagnostic technology. Our team specializes in domestic and import vehicles commonly seen on Memphis roads, from Chevy trucks to Nissan sedans.",
+        "We're proud to support local charities like the Mid-South Food Bank and sponsor youth sports teams in Shelby County."
+      ],
+      "valueProps": [
+        {
+          "title": "No Upselling",
+          "description": "We recommend only what your vehicle truly needs - no unnecessary repairs."
+        },
+        {
+          "title": "Loaner Cars",
+          "description": "Free loaner vehicles available for most major repairs over 4 hours."
+        },
+        {
+          "title": "3-Year Warranty",
+          "description": "All parts and labor backed by our industry-leading warranty."
+        },
+        {
+          "title": "Local Parts Network",
+          "description": "Direct relationships with Memphis-area suppliers mean faster repairs and better pricing."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Service Today",
+      "ctaSubline": "Same-day appointments available for most services. Call or book online."
+    },
+    "services": [
+      {
+        "slug": "transmission-repair",
+        "name": "Transmission Services",
+        "shortDescription": "Expert diagnosis and repair for automatic and manual transmissions.",
+        "description": "Memphis' stop-and-go traffic on I-240 and I-55 puts extra strain on transmissions. Our technicians perform complete transmission diagnostics using the latest scanner technology to pinpoint issues accurately. We specialize in:\n\nRebuilding worn transmissions rather than pushing unnecessary replacements\nFluid exchanges to prevent Memphis' summer heat from breaking down your transmission\nComputerized adjustments for shifting problems common in Fords and Chevrolets\n\nFor older vehicles common in Memphis' historic neighborhoods, we source quality rebuilt units from local suppliers when repairs aren't feasible. All work includes a free 20-mile test drive through downtown traffic to verify repairs.",
+        "process": [
+          "Step 1: Road test and computer diagnostics",
+          "Step 2: Detailed estimate with repair options",
+          "Step 3: Disassembly and component inspection",
+          "Step 4: Rebuild or replace with test drive verification"
+        ],
+        "benefits": [
+          "Extends transmission life 2-3x longer than quick fixes",
+          "Saves $1,500+ versus dealership replacements",
+          "Prevents breakdowns on busy Memphis interstates",
+          "Includes free fluid top-offs for 6 months"
+        ],
+        "faq": [
+          {
+            "question": "How often should I service my transmission?",
+            "answer": "We recommend fluid changes every 30,000 miles for most Memphis drivers. Heavy stop-and-go traffic may require more frequent service."
+          },
+          {
+            "question": "What are signs my transmission is failing?",
+            "answer": "Delayed shifting, slipping gears, and fluid leaks are common warnings. Don't wait until you're stuck on Summer Avenue - bring your car in at the first sign of trouble."
+          },
+          {
+            "question": "Can you work on European transmissions?",
+            "answer": "Yes, our lead technician is certified on BMW, Mercedes, and Audi transmissions commonly found in East Memphis neighborhoods."
+          }
+        ]
+      },
+      {
+        "slug": "brake-repair",
+        "name": "Brake Services",
+        "shortDescription": "Complete brake inspections and repairs for Memphis driving conditions.",
+        "description": "From the hills of Cordova to downtown's rainy streets, Memphis demands reliable brakes. We perform comprehensive brake services using premium pads and rotors that stand up to Tennessee's variable weather. Our process includes:\n\nMeasuring remaining pad thickness with digital calipers (most shops just eyeball it)\nResurfacing rotors when possible to save you money\nBleeding brake lines to remove moisture that causes spongy pedals\nChecking caliper slides that often stick in our humid climate\n\nWe stock brake parts for common Memphis vehicles like Toyota Camrys and Ford F-150s, with same-day service available for most repairs. All brake work includes a free retorque after 50 miles to ensure everything stays tight.",
+        "process": [
+          "Step 1: Test drive and visual inspection",
+          "Step 2: Measurement of all brake components",
+          "Step 3: Customer-approved repair plan",
+          "Step 4: Quality parts installation and road test"
+        ],
+        "benefits": [
+          "Quieter stops than cheap chain-store brake jobs",
+          "Ceramic pads available for less brake dust",
+          "Properly lubricated components last longer",
+          "Complete fluid service prevents corrosion"
+        ],
+        "faq": [
+          {
+            "question": "How often should brakes be inspected?",
+            "answer": "Every oil change for Memphis drivers. Our salty winter roads and summer downpours accelerate brake wear."
+          },
+          {
+            "question": "Why do my brakes squeak after repair?",
+            "answer": "Some noise during the 200-mile break-in period is normal. Persistent squeaks mean we'll adjust them at no charge."
+          },
+          {
+            "question": "Do you work on anti-lock brake systems?",
+            "answer": "Yes, we're equipped to diagnose and repair ABS issues that trigger warning lights on your dashboard."
+          }
+        ]
+      },
+      {
+        "slug": "ac-repair",
+        "name": "AC Repair",
+        "shortDescription": "Complete air conditioning service for Memphis' humid summers.",
+        "description": "When temperatures hit 95°F with 80% humidity, you need reliable AC. Our certified technicians perform thorough diagnostics using manifold gauges and leak detectors to find problems other shops miss. We specialize in:\n\nIdentifying refrigerant leaks with UV dye (common in older cars on Memphis roads)\nReplacing expansion valves clogged by Southern pollen\nRepairing blend door actuators that fail in our temperature swings\n\nFor classic cars seen at Memphis car shows, we offer R-12 conversions to modern refrigerants. All AC repairs include a free recharge if needed within 90 days and a cabin air filter check to keep Memphis allergens out of your vents.",
+        "process": [
+          "Step 1: Performance test and pressure readings",
+          "Step 2: Leak detection and component inspection",
+          "Step 3: Repair approval with upfront pricing",
+          "Step 4: System evacuation and recharge"
+        ],
+        "benefits": [
+          "Cools 20% faster than quick-charge services",
+          "Uses environmentally friendly refrigerants",
+          "Includes free summer performance check",
+          "Proper oil charge prevents compressor failure"
+        ],
+        "faq": [
+          {
+            "question": "Why does my AC stop working at red lights?",
+            "answer": "This usually indicates a failing condenser fan. We test these under actual Memphis driving conditions."
+          },
+          {
+            "question": "How often should AC systems be serviced?",
+            "answer": "Annual checkups are wise. Our humidity causes mold growth that clogs systems."
+          },
+          {
+            "question": "Can you fix electrical AC problems?",
+            "answer": "Yes, we diagnose wiring issues and faulty relays common in older Memphis vehicles."
+          }
+        ]
+      },
+      {
+        "slug": "engine-diagnostics",
+        "name": "Engine Diagnostics",
+        "shortDescription": "Advanced computer diagnostics for check engine lights and drivability issues.",
+        "description": "Modern vehicles have up to 50 computers controlling engine performance. Our $25,000 diagnostic setup reads all manufacturer-specific codes, not just generic OBD2 data. This lets us accurately diagnose:\n\nMisfires caused by Memphis' ethanol-blended fuels\nFaulty oxygen sensors common in high-mileage cars\nTiming chain issues in certain Nissan and Honda models\n\nWe maintain factory service information for all major makes, so we don't just guess at repairs. For intermittent problems, we offer extended test drives replicating Memphis driving conditions to reproduce hard-to-find issues. All diagnostics include a detailed printed report explaining the problem in plain English.",
+        "process": [
+          "Step 1: Full-system scan with OEM software",
+          "Step 2: Live data monitoring during test drive",
+          "Step 3: Component testing beyond code reading",
+          "Step 4: Repair options with cost/benefit analysis"
+        ],
+        "benefits": [
+          "Identifies root causes, not just symptoms",
+          "Saves $100+ versus dealership diagnostics",
+          "Includes free retest if light returns",
+          "Detailed reports help with resale value"
+        ],
+        "faq": [
+          {
+            "question": "Why is my check engine light on after fuel fill-up?",
+            "answer": "This often indicates a loose gas cap - we check this for free before any charges."
+          },
+          {
+            "question": "Can you diagnose transmission codes too?",
+            "answer": "Yes, our scanners read all modules including transmission, ABS, and airbag systems."
+          },
+          {
+            "question": "How accurate are your diagnostics?",
+            "answer": "We achieve 98% first-time accuracy by combining scans with mechanical inspections."
+          }
+        ]
+      },
+      {
+        "slug": "suspension-repair",
+        "name": "Suspension Services",
+        "shortDescription": "Complete suspension repairs that survive Memphis potholes.",
+        "description": "From potholes on Poplar Avenue to rough railroad crossings, Memphis roads test every suspension component. We perform comprehensive inspections measuring:\n\nStrut/shock absorber performance (replaced in pairs for even handling)\nBall joint and control arm wear (common in trucks used on country roads)\nBushing deterioration from Tennessee's heat cycles\n\nWe use laser alignment equipment to precisely set angles after repairs, crucial for preventing tire wear on Memphis' crowned roads. For luxury vehicles in East Memphis, we offer factory-spec alignments using OEM tolerance charts. All suspension work includes a free alignment check after 500 miles.",
+        "process": [
+          "Step 1: Road test and bounce test",
+          "Step 2: Lift inspection with measurement tools",
+          "Step 3: Customer-approved repair plan",
+          "Step 4: Precision alignment post-repair"
+        ],
+        "benefits": [
+          "Restores original ride quality",
+          "Prevents uneven tire wear",
+          "Uses OEM-grade components",
+          "Includes free follow-up inspection"
+        ],
+        "faq": [
+          {
+            "question": "Why does my car pull after hitting a pothole?",
+            "answer": "This usually indicates bent steering components. We check tie rods and control arms thoroughly."
+          },
+          {
+            "question": "How often should shocks be replaced?",
+            "answer": "Every 50,000 miles is typical for Memphis driving. Worn shocks accelerate other suspension wear."
+          },
+          {
+            "question": "Do you align lifted trucks?",
+            "answer": "Yes, we properly align trucks with up to 4\" lifts common in our area."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus J.",
+        "rating": 5,
+        "service": "Transmission rebuild for 2014 Silverado",
+        "text": "After two shops told me I needed a $4,000 replacement, Horizon diagnosed a bad solenoid pack. $600 repair fixed my shifting issues completely. They even showed me the faulty part and explained how the repair works. My truck shifts better than it has in years.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa T.",
+        "rating": 5,
+        "service": "AC repair for 2017 Camry",
+        "text": "My AC would only blow cold on the highway - turns out the condenser fan was failing. Horizon found the issue quickly and had me back on the road same day. The tech took time to show me the melted wiring that caused the problem. Great service in this Memphis heat!",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Darnell W.",
+        "rating": 5,
+        "service": "Brake job for 2018 Explorer",
+        "text": "Finally found a shop that doesn't try to upsell rotors when they can be resurfaced. My brakes are silent now and stop perfectly, even in rainy downtown traffic. Appreciate the honest assessment and quality workmanship.",
+        "date": "2025-04-02"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Diagnostics for check engine light",
+        "text": "My Subaru had an intermittent misfire three other shops couldn't replicate. Horizon's technician rode with me to pinpoint the issue - turned out to be a wiring harness rubbing against the engine. Detailed invoice showed exactly what was fixed. Will never go anywhere else.",
+        "date": "2025-01-18"
+      },
+      {
+        "name": "James P.",
+        "rating": 5,
+        "service": "Suspension repair for 2012 Altima",
+        "text": "Had a horrible clunking noise over bumps. Horizon replaced both front struts and control arm bushings, then did a perfect alignment. Car drives like new now, even on those rough streets near the Medical District. Fair price and no hidden fees.",
+        "date": "2025-03-30"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "Pre-purchase inspection",
+        "text": "Paid for their thorough 125-point inspection before buying a used Tahoe. They found $2,800 in needed repairs the dealer 'forgot' to mention. Negotiated the repair cost off the price and had Horizon do the work. Saved me from a bad purchase!",
+        "date": "2025-02-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Memphis Auto Repair | Horizon Auto Repair",
+        "description": "Honest auto repair services in Memphis, TN. Transmission, brakes, AC and engine diagnostics from factory-trained technicians."
+      },
+      "about": {
+        "title": "About Our Memphis Auto Repair Shop",
+        "description": "Family-owned auto repair serving Memphis since 2010. Meet our team and learn why locals trust us with their vehicles."
+      },
+      "services": {
+        "title": "Auto Repair Services in Memphis",
+        "description": "Complete auto repair services for Memphis drivers. Transmission, brakes, suspension and AC repair with warranty."
+      },
+      "contact": {
+        "title": "Contact Horizon Auto Repair in Memphis",
+        "description": "Schedule your auto service in Memphis, TN. Call or visit our repair shop near downtown."
+      },
+      "reviews": {
+        "title": "Horizon Auto Repair Customer Reviews",
+        "description": "Read why Memphis drivers rate us 5 stars for auto repair and exceptional service."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 14,
+      "projectsCompleted": "4,200+",
+      "satisfaction": "98%",
+      "teamSize": "11"
+    },
+    "serviceAreas": [
+      {
+        "city": "Memphis",
+        "slug": "memphis-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is proud to serve the vibrant city of Memphis, TN, providing top-notch auto repair services to keep your vehicle running smoothly. Whether you're commuting downtown or exploring the city's rich musical heritage, we ensure your car is in peak condition. Our skilled technicians specialize in everything from routine maintenance to complex repairs, offering reliable service with a personal touch.",
+        "localContext": "Memphis is known for its blues music, barbecue, and the iconic Beale Street.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Germantown",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Bartlett",
+        "slug": "bartlett-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is your trusted auto care provider in Bartlett, TN. We understand the importance of a reliable vehicle for your daily commute or weekend adventures. Our team offers comprehensive services, including oil changes, brake repairs, and engine diagnostics, tailored to meet the needs of Bartlett residents. With a commitment to quality and affordability, we’re here to keep you on the road.",
+        "localContext": "Bartlett is a family-friendly suburb with excellent schools and parks.",
+        "nearbyAreas": [
+          "Memphis",
+          "Cordova",
+          "Lakeland"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "slug": "germantown-tn",
+        "state": "TN",
+        "content": "Germantown drivers trust Horizon Auto Repair for exceptional auto care and customer service. Whether you need a quick tune-up or a major repair, our experienced technicians use the latest tools and techniques to get the job done right. Serving Germantown for years, we take pride in building lasting relationships with our customers and ensuring their vehicles perform at their best.",
+        "localContext": "Germantown is an upscale community known for its shopping and green spaces.",
+        "nearbyAreas": [
+          "Collierville",
+          "Memphis",
+          "Bartlett"
+        ]
+      },
+      {
+        "city": "Collierville",
+        "slug": "collierville-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is Collierville’s go-to destination for reliable and honest auto repairs. From hybrid vehicles to classic cars, our team has the expertise to handle all your automotive needs. We prioritize transparency and convenience, offering detailed inspections and fair pricing. Let us help you maintain your vehicle’s performance and safety for years to come.",
+        "localContext": "Collierville combines small-town charm with modern amenities and historic sites.",
+        "nearbyAreas": [
+          "Germantown",
+          "Memphis",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Cordova",
+        "slug": "cordova-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair serves the Cordova community with dependable auto repair services. Whether you’re driving to work or heading out of town, our team ensures your vehicle is in top shape. We offer everything from tire rotations to transmission repairs, all backed by a satisfaction guarantee. Trust us to keep your car running smoothly on Cordova’s busy roads.",
+        "localContext": "Cordova is a bustling suburb with a mix of residential and commercial areas.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Memphis",
+          "Lakeland"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is Arlington’s trusted partner for all auto repair needs. Our skilled technicians provide personalized service, whether you need routine maintenance or unexpected repairs. We understand the demands of Arlington’s growing community and are committed to delivering fast, affordable, and high-quality auto care.",
+        "localContext": "Arlington is a fast-growing town with a strong sense of community.",
+        "nearbyAreas": [
+          "Collierville",
+          "Lakeland",
+          "Millington"
+        ]
+      },
+      {
+        "city": "Lakeland",
+        "slug": "lakeland-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is proud to serve Lakeland residents with expert auto repair services. From diagnostics to drivetrain repairs, we handle it all with precision and care. Our goal is to keep your vehicle safe and reliable, whether you’re commuting or exploring the area’s scenic lakes. Visit us for honest advice and top-tier service.",
+        "localContext": "Lakeland is known for its beautiful lakes and outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Arlington",
+          "Cordova"
+        ]
+      },
+      {
+        "city": "Millington",
+        "slug": "millington-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair provides Millington drivers with reliable and affordable auto repair solutions. Our team is dedicated to keeping your vehicle in excellent condition, offering services like brake repairs, engine diagnostics, and more. We pride ourselves on honest communication and quality workmanship, ensuring your satisfaction every time.",
+        "localContext": "Millington is home to the Naval Support Activity Mid-South and offers a relaxed, small-town vibe.",
+        "nearbyAreas": [
+          "Arlington",
+          "Memphis",
+          "Bartlett"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "slug": "olive-branch-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair extends its services to Olive Branch, TN, delivering exceptional auto care to the community. Whether you need a routine oil change or a complex repair, our team is here to help. We use state-of-the-art equipment and genuine parts to ensure your vehicle’s longevity and performance.",
+        "localContext": "Olive Branch is a thriving city with a mix of suburban and rural landscapes.",
+        "nearbyAreas": [
+          "Collierville",
+          "Memphis",
+          "Hernando"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "slug": "southaven-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is Southaven’s trusted auto repair shop, offering comprehensive services to keep your vehicle running smoothly. Our experienced technicians provide everything from brake repairs to electrical diagnostics, ensuring your car is safe and reliable. We’re committed to delivering honest, high-quality service to the Southaven community.",
+        "localContext": "Southaven is a bustling city with easy access to Memphis and plenty of shopping and dining options.",
+        "nearbyAreas": [
+          "Memphis",
+          "Olive Branch",
+          "Horn Lake"
+        ]
+      },
+      {
+        "city": "Hernando",
+        "slug": "hernando-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair serves Hernando drivers with expert auto repair and maintenance services. Whether you’re dealing with a check engine light or need a full inspection, our team is here to help. We prioritize customer satisfaction and vehicle safety, offering tailored solutions for every make and model.",
+        "localContext": "Hernando is a charming town with historic sites and a friendly atmosphere.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Southaven",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Horn Lake",
+        "slug": "horn-lake-tn",
+        "state": "TN",
+        "content": "Horizon Auto Repair is Horn Lake’s reliable choice for auto repair and maintenance. Our skilled technicians provide everything from tire services to engine repairs, ensuring your vehicle stays in top condition. We pride ourselves on transparent pricing and exceptional customer service, making us the preferred shop for Horn Lake residents.",
+        "localContext": "Horn Lake offers a mix of residential comfort and convenient access to Memphis.",
+        "nearbyAreas": [
+          "Southaven",
+          "Memphis",
+          "Olive Branch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brake-repair": "/images/service-brake-repair.webp",
+      "ac-repair": "/images/service-ac-repair.webp",
+      "engine-diagnostics": "/images/service-engine-diagnostics.webp",
+      "suspension-repair": "/images/service-suspension-repair.webp",
+      "transmission-repair": "/images/service-transmission-repair.webp"
+    },
+    "servicesResponsive": {
+      "brake-repair": {
+        "src": "/images/service-brake-repair.webp",
+        "srcset": "/images/service-brake-repair-400w.webp 400w, /images/service-brake-repair-800w.webp 800w, /images/service-brake-repair-1200w.webp 1200w, /images/service-brake-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ac-repair": {
+        "src": "/images/service-ac-repair.webp",
+        "srcset": "/images/service-ac-repair-400w.webp 400w, /images/service-ac-repair-800w.webp 800w, /images/service-ac-repair-1200w.webp 1200w, /images/service-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "engine-diagnostics": {
+        "src": "/images/service-engine-diagnostics.webp",
+        "srcset": "/images/service-engine-diagnostics-400w.webp 400w, /images/service-engine-diagnostics-800w.webp 800w, /images/service-engine-diagnostics-1200w.webp 1200w, /images/service-engine-diagnostics.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "suspension-repair": {
+        "src": "/images/service-suspension-repair.webp",
+        "srcset": "/images/service-suspension-repair-400w.webp 400w, /images/service-suspension-repair-800w.webp 800w, /images/service-suspension-repair-1200w.webp 1200w, /images/service-suspension-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "transmission-repair": {
+        "src": "/images/service-transmission-repair.webp",
+        "srcset": "/images/service-transmission-repair-400w.webp 400w, /images/service-transmission-repair-800w.webp 800w, /images/service-transmission-repair-1200w.webp 1200w, /images/service-transmission-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
